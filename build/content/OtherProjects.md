@@ -15,7 +15,7 @@ Movie Review Site built using ReactJS for the frontend and Laravel
   - React [blue]
   - Laravel [red]
 - Buttons:
-  - Link [https://github.com/khalilh2002/Movie-Reviews-laravel-Project]
+  - Source [https://github.com/khalilh2002/Movie-Reviews-laravel-Project]
 
 
 ## Managa  (Downloader) CLI/GUI
@@ -26,3 +26,15 @@ An application to download manga from the Mangalek website using BeautifulSoup
   - Web Scraping [blue]
 - Buttons:
   - Source [https://github.com/khalilh2002/Manga-Downloader-MangaLek-Edition]
+
+
+## Random Genrated Map with AI that can controll the Player
+Developing a game using the Unity engine that incorporates pathfinding algorithms such as Dijkstra's and A* to create sophisticated AI for player interactions. 
+- Tags: Open source / Hobie
+- Badges:
+  - Unity [black]
+  - C# [green]
+  - Algorithms [yellow]
+  - Graph theory [blue]
+- Buttons:
+  - Source [https://github.com/khalilh2002/Unity-RPG-The-Quest-for-the-Shortest-Path]
