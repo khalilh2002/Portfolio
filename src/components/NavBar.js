@@ -57,6 +57,10 @@ export default function Nav({ color }) {
     const contactSection = document.querySelector("#contact");
     contactSection.scrollIntoView({ behavior: "smooth" });
   };
+  const scrollToSkills = () => {
+    const contactSection = document.querySelector("#skills");
+    contactSection.scrollIntoView({ behavior : "smooth"})
+  }
   const changeScroll = () =>
     document.body.scrollTop > 80 || document.documentElement.scrollTop > 80
       ? setScroll(true)
@@ -100,6 +104,9 @@ export default function Nav({ color }) {
               <>
                 <Button variant="ghost" onClick={scrollToAbout}>
                   About
+                </Button>
+                <Button variant="ghost" onClick={scrollToSkills}>
+                  Skills
                 </Button>
                 <Button variant="ghost" onClick={scrollToExperience}>
                   Experience
