@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": "job1",
+      "title": "Senior Frontend Developer",
+      "company": "Tech Solutions Inc.",
+      "location": "San Francisco, CA",
+      "startDate": "Jan 2021",
+      "endDate": "Present",
+      "description": "Leading the frontend development team in building modern web applications using React, TypeScript, and Next.js.",
+      "responsibilities": [
+        "Architected and implemented responsive UI components using React and TypeScript",
+        "Improved application performance by 40% through code optimization and lazy loading",
+        "Mentored junior developers and conducted code reviews to ensure code quality",
+        "Collaborated with UX/UI designers to implement pixel-perfect designs",
+        "Implemented CI/CD pipelines for automated testing and deployment"
+      ],
+      "technologies": ["React", "TypeScript", "Next.js", "Redux", "Tailwind CSS", "Jest", "GitHub Actions"]
+    },
+    {
+      "id": "job2",
+      "title": "Full Stack Developer",
+      "company": "Digital Innovations",
+      "location": "Boston, MA",
+      "startDate": "Mar 2018",
+      "endDate": "Dec 2020",
+      "description": "Worked on full stack development for e-commerce applications using Java Spring Boot and React.",
+      "responsibilities": [
+        "Developed RESTful APIs using Java Spring Boot",
+        "Built responsive frontend interfaces with React and Material UI",
+        "Implemented authentication and authorization using OAuth 2.0",
+        "Optimized database queries for improved performance",
+        "Integrated payment gateways and third-party services"
+      ],
+      "technologies": ["Java", "Spring Boot", "React", "MySQL", "Docker", "AWS", "Material UI"]
+    },
+    {
+      "id": "job3",
+      "title": "Junior Developer",
+      "company": "WebCraft Studios",
+      "location": "Seattle, WA",
+      "startDate": "Jun 2016",
+      "endDate": "Feb 2018",
+      "description": "Assisted in the development of web applications for various clients.",
+      "responsibilities": [
+        "Implemented UI designs using HTML, CSS, and JavaScript",
+        "Fixed bugs and improved existing features",
+        "Collaborated with designers to ensure pixel-perfect implementation",
+        "Participated in code reviews and team meetings",
+        "Assisted in the deployment and maintenance of web applications"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript", "jQuery", "PHP", "WordPress", "Git"]
+    }
+  ]
+}

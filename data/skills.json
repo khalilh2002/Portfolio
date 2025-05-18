@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "name": "Frontend",
+      "skills": [
+        { "name": "React", "level": 90, "icon": "React" },
+        { "name": "JavaScript", "level": 85, "icon": "FileJson" },
+        { "name": "TypeScript", "level": 80, "icon": "FileType" },
+        { "name": "HTML/CSS", "level": 90, "icon": "FileCode" },
+        { "name": "Next.js", "level": 85, "icon": "LayoutTemplate" },
+        { "name": "Tailwind CSS", "level": 85, "icon": "Palette" }
+      ]
+    },
+    {
+      "name": "Backend",
+      "skills": [
+        { "name": "Java", "level": 80, "icon": "Coffee" },
+        { "name": "Spring", "level": 75, "icon": "Leaf" },
+        { "name": "Node.js", "level": 70, "icon": "Server" },
+        { "name": "Express", "level": 75, "icon": "Workflow" },
+        { "name": "RESTful APIs", "level": 85, "icon": "Network" },
+        { "name": "GraphQL", "level": 65, "icon": "GitGraph" }
+      ]
+    },
+    {
+      "name": "Database",
+      "skills": [
+        { "name": "MySQL", "level": 80, "icon": "Database" },
+        { "name": "PostgreSQL", "level": 75, "icon": "Database" },
+        { "name": "MongoDB", "level": 70, "icon": "Database" },
+        { "name": "Redis", "level": 60, "icon": "Database" }
+      ]
+    },
+    {
+      "name": "Tools",
+      "skills": [
+        { "name": "Git", "level": 85, "icon": "GitBranch" },
+        { "name": "Docker", "level": 70, "icon": "Container" },
+        { "name": "AWS", "level": 65, "icon": "Cloud" },
+        { "name": "CI/CD", "level": 75, "icon": "Workflow" },
+        { "name": "Jest", "level": 80, "icon": "TestTube" },
+        { "name": "Webpack", "level": 70, "icon": "Package" }
+      ]
+    }
+  ]
+}
