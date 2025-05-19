@@ -3,43 +3,71 @@
     {
       "name": "Frontend",
       "skills": [
-        { "name": "React", "level": 90, "icon": "React" },
-        { "name": "JavaScript", "level": 85, "icon": "FileJson" },
-        { "name": "TypeScript", "level": 80, "icon": "FileType" },
-        { "name": "HTML/CSS", "level": 90, "icon": "FileCode" },
-        { "name": "Next.js", "level": 85, "icon": "LayoutTemplate" },
-        { "name": "Tailwind CSS", "level": 85, "icon": "Palette" }
+        { "name": "React", "level": 60, "icon": "React" },
+        { "name": "Angular", "level": 60, "icon": "LayoutTemplate" },
+        { "name": "HTML", "level": 60, "icon": "FileCode" },
+        { "name": "CSS", "level": 55, "icon": "FileCode" },
+        { "name": "JavaScript", "level": 65, "icon": "FileJson" },
+        { "name": "TypeScript", "level": 65, "icon": "FileType" },
+        { "name": "SASS", "level": 60, "icon": "Palette" },
+        { "name": "Tailwind CSS", "level": 55, "icon": "Palette" },
+        { "name": "Bootstrap", "level": 65, "icon": "Bootstrap" },
+        { "name": "Material-UI", "level": 60, "icon": "Palette" },
+        { "name": "Qt", "level": 55, "icon": "CodeSquare" }
       ]
     },
     {
       "name": "Backend",
       "skills": [
-        { "name": "Java", "level": 80, "icon": "Coffee" },
         { "name": "Spring", "level": 75, "icon": "Leaf" },
-        { "name": "Node.js", "level": 70, "icon": "Server" },
-        { "name": "Express", "level": 75, "icon": "Workflow" },
-        { "name": "RESTful APIs", "level": 85, "icon": "Network" },
-        { "name": "GraphQL", "level": 65, "icon": "GitGraph" }
+        { "name": "Laravel", "level": 75, "icon": "FileCode" },
+        { "name": "Node.js", "level": 60, "icon": "Server" },
+        { "name": "Express", "level": 60, "icon": "Workflow" },
+        { "name": "ASP.NET", "level": 55, "icon": "CodeSquare" },
+        { "name": "PHP", "level": 70, "icon": "FileCode" },
+        { "name": "Java", "level": 75, "icon": "Coffee" },
+        { "name": "JavaScript", "level": 65, "icon": "FileJson" },
+        { "name": "MySQL", "level": 75, "icon": "Database" },
+        { "name": "PostgreSQL", "level": 70, "icon": "Database" },
+        { "name": "MongoDB", "level": 55, "icon": "Database" },
+        { "name": "Symfony", "level": 60, "icon": "CodeSquare" },
+        { "name": "Postman", "level": 70, "icon": "TestTube" }
       ]
     },
     {
-      "name": "Database",
+      "name": "Tools & DevOps",
       "skills": [
-        { "name": "MySQL", "level": 80, "icon": "Database" },
-        { "name": "PostgreSQL", "level": 75, "icon": "Database" },
-        { "name": "MongoDB", "level": 70, "icon": "Database" },
-        { "name": "Redis", "level": 60, "icon": "Database" }
+        { "name": "Docker", "level": 80, "icon": "Container" },
+        { "name": "Jenkins", "level": 70, "icon": "Workflow" },
+        { "name": "Ubuntu", "level": 70, "icon": "Terminal" },
+        { "name": "Kubernetes", "level": 65, "icon": "Cluster" },
+        { "name": "Linux", "level": 80, "icon": "Terminal" },
+        { "name": "Bash", "level": 70, "icon": "Terminal" },
+        { "name": "Python", "level": 80, "icon": "Python" },
+        { "name": "Git", "level": 70, "icon": "GitBranch" }
       ]
     },
     {
-      "name": "Tools",
+      "name": "AI and Machine Learning",
       "skills": [
-        { "name": "Git", "level": 85, "icon": "GitBranch" },
-        { "name": "Docker", "level": 70, "icon": "Container" },
-        { "name": "AWS", "level": 65, "icon": "Cloud" },
-        { "name": "CI/CD", "level": 75, "icon": "Workflow" },
-        { "name": "Jest", "level": 80, "icon": "TestTube" },
-        { "name": "Webpack", "level": 70, "icon": "Package" }
+        { "name": "scikit-learn", "level": 65, "icon": "Brain" },
+        { "name": "PyTorch", "level": 65, "icon": "Brain" }
+      ]
+    },
+    {
+      "name": "Game Development",
+      "skills": [
+        { "name": "Unity", "level": 60, "icon": "Gamepad" },
+        { "name": "C#", "level": 65, "icon": "FileCode" }
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "skills": [
+        { "name": "Android Studio", "level": 60, "icon": "Mobile" },
+        { "name": ".NET MAUI", "level": 55, "icon": "CodeSquare" },
+        { "name": "Java", "level": 60, "icon": "Coffee" },
+        { "name": "C#", "level": 65, "icon": "FileCode" }
       ]
     }
   ]

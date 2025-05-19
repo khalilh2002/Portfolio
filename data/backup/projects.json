@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "id": "project1",
+      "title": "Fin-Tech Platform",
+      "description": "A full-featured Fin-tch platform with microservice architecture, money transfer with currency change, and payment processing. The application provides a seamless banking experience with fast page loads and responsive design.",
+      "shortDescription": "Modern Fin-tch solution with Springboot and microservice architecture",
+      "image": "/assets/projects/fintech.png?height=600&width=800",
+      "technologies": ["SpringBoot", "Postgres", "Mysql", "java", "Spring Security", "JWT","Machine Learning"],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/Fintech-LSI",
+      "features": [
+        "Auth Service : User authentication and authorization",
+        "User Service : Users data management, including profile updates and account settings",
+        "Transaction Service : Secure and reliable processing of financial transactions and logs",
+        "Wallet Service : Digital wallet supporting multiple currencies and transaction history",
+        "Gateway & Discovery Service : Dynamic discovery of microservices and Centralized routing",
+        "Credit Risk Prediction : ML-based assessment of borrowers for risk analysis"
+      ]
+    },
+    {
+      "id": "project2",
+      "title": "Task Management App",
+      "description": "A collaborative task management application with real-time updates and team workspaces. The app helps teams organize their work, track progress, and meet deadlines efficiently.",
+      "shortDescription": "Trello-like task management with drag-and-drop functionality",
+      "image": "/placeholder.svg?height=600&width=800",
+      "technologies": ["React", "Firebase", "Material UI", "Redux", "React DnD", "Firebase Auth"],
+      "liveUrl": "https://example.com/taskapp",
+      "githubUrl": "https://github.com/username/taskapp",
+      "features": [
+        "Drag-and-drop task management",
+        "Real-time collaboration",
+        "Team workspaces and permissions",
+        "Task comments and attachments",
+        "Deadline notifications",
+        "Activity logs and history",
+        "Mobile-friendly interface"
+      ]
+    },
+    {
+      "id": "project3",
+      "title": "Weather Dashboard",
+      "description": "A weather dashboard that displays current and forecasted weather data for multiple locations. The application uses the OpenWeather API to fetch accurate weather information and presents it in an intuitive interface.",
+      "shortDescription": "Weather visualization with OpenWeather API",
+      "image": "/placeholder.svg?height=600&width=800",
+      "technologies": ["React", "Chart.js", "OpenWeather API", "Tailwind CSS", "Geolocation API"],
+      "liveUrl": "https://example.com/weather",
+      "githubUrl": "https://github.com/username/weather",
+      "features": [
+        "Current weather conditions",
+        "5-day weather forecast",
+        "Location search and favorites",
+        "Interactive weather maps",
+        "Weather alerts and notifications",
+        "Historical weather data visualization",
+        "Automatic location detection"
+      ]
+    }
+  ]
+}

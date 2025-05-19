@@ -1,49 +1,41 @@
 {
   "projects": [
-    {
-      "id": "minor1",
-      "title": "URL Shortener",
-      "description": "A simple URL shortening service built with Node.js and MongoDB.",
-      "technologies": ["Node.js", "Express", "MongoDB", "Bootstrap"],
-      "githubUrl": "https://github.com/username/url-shortener"
+     {
+      "id": "project3",
+      "title": "Managa (Downloader) CLI/GUI",
+      "description": "An application to download manga from the Mangalek website using BeautifulSoup.",
+      "technologies": ["Python", "Web Scraping"],
+      "githubUrl": "https://github.com/khalilh2002/Manga-Downloader-MangaLek-Edition"
     },
     {
-      "id": "minor2",
-      "title": "Markdown Note Taking App",
-      "description": "A browser-based markdown editor with local storage persistence.",
-      "technologies": ["React", "Markdown", "LocalStorage", "CSS Modules"],
-      "githubUrl": "https://github.com/username/markdown-notes",
-      "liveUrl": "https://example.com/markdown-notes"
+      "id": "project1",
+      "title": "Management of Computer Sciences Department",
+      "description": "A graphical user interface developed for managing the Computer Sciences department at the university.",
+      "technologies": ["Cpp", "SQLite", "Qt"],
+      "githubUrl": "https://github.com/khalilh2002/Interface-Graphique-pour-gestion-de-departement-Informatique-de-FST"
+    },
+     {
+      "id": "project5",
+      "title": "Restaurant Management App 🍽️",
+      "description": "Developing a game using the Unity engine that incorporates pathfinding algorithms such as Dijkstra's and A* to create sophisticated AI for player interactions.",
+      "technologies": [".NET", "C#", "MAUI"],
+      "githubUrl": "https://github.com/khalilh2002/MAUI_Restaurant_Management"
     },
     {
-      "id": "minor3",
-      "title": "Recipe Finder",
-      "description": "A web app that helps users find recipes based on available ingredients.",
-      "technologies": ["JavaScript", "API Integration", "CSS Grid", "Fetch API"],
-      "githubUrl": "https://github.com/username/recipe-finder"
+      "id": "project2",
+      "title": "Movie Review Site",
+      "description": "Movie Review Site built using ReactJS for the frontend and Laravel.",
+      "technologies": ["React", "Laravel"],
+      "githubUrl": "https://github.com/khalilh2002/Movie-Reviews-laravel-Project"
     },
     {
-      "id": "minor4",
-      "title": "Budget Calculator",
-      "description": "A simple budget tracking application with expense categories and visualizations.",
-      "technologies": ["React", "Chart.js", "CSS", "LocalStorage"],
-      "githubUrl": "https://github.com/username/budget-calc",
-      "liveUrl": "https://example.com/budget-calc"
-    },
-    {
-      "id": "minor5",
-      "title": "Weather Widget",
-      "description": "A reusable weather widget component that can be embedded in any website.",
-      "technologies": ["JavaScript", "Weather API", "CSS", "Web Components"],
-      "githubUrl": "https://github.com/username/weather-widget"
-    },
-    {
-      "id": "minor6",
-      "title": "Portfolio Template",
-      "description": "A customizable portfolio template for developers to showcase their work.",
-      "technologies": ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      "githubUrl": "https://github.com/username/portfolio-template",
-      "liveUrl": "https://example.com/portfolio-template"
+      "id": "project6",
+      "title": "E-commerce Platform with MEAN stack",
+      "description": "Normal e-commerce webapp using angular , mongodb and express js.",
+      "technologies": ["Angular", "mongodb","nodejs","experss js"],
+      "githubUrl": ""
     }
+   
+   
   ]
 }

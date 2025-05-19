@@ -2,8 +2,8 @@
   "name": "El Houssine KHALIL",
   "roles": ["Full Stack", "DevOps", "Problem Solver"],
   "shortBio": "Passionate about creating beautiful, functional, and user-friendly applications.",
-  "resumeUrl": "https://drive.google.com/file/d/19DQ9vMBeGhYxYdx8baaRxdJw7mkf6XI9/view?usp=sharing",
-  "profileImage": "/assets/profile/profile.jpeg?height=320&width=320",
+  "resumeUrl": "#",
+  "profileImage": "/assets/pro.jpeg?height=320&width=320",
   "greeting": "Hello, I'm El Houssine KHALIL!",
   "aboutParagraphs": [
     "I'm a passionate developer with a strong focus on creating intuitive and performant web applications. With several years of experience in the industry, I've developed a keen eye for detail and a commitment to writing clean, maintainable code.",
@@ -18,9 +18,7 @@
   "contact": {
     "email": "khalil.houssein2002@gmail.com",
     "phone": "+212 689 66 60 89",
-    "location": "Casablanca ,Morocco",
-    "calendlyUrl": "https://calendly.com/khalil-elhoussine-etu/30min"
-
+    "location": "Casablanca ,Morocco"
   },
   "availability": "available for freelance work and Internship positions",
   "social": {

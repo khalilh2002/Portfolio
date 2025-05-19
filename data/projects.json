@@ -2,59 +2,117 @@
   "projects": [
     {
       "id": "project1",
-      "title": "E-commerce Platform",
-      "description": "A full-featured e-commerce platform with product management, cart functionality, and payment processing. The application provides a seamless shopping experience with fast page loads and responsive design.",
-      "shortDescription": "Modern e-commerce solution with React and Node.js",
-      "image": "/placeholder.svg?height=600&width=800",
-      "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe", "Redux", "JWT"],
-      "liveUrl": "https://example.com/ecommerce",
-      "githubUrl": "https://github.com/username/ecommerce",
+      "title": "Fin-Tech Platform",
+      "description": "A full-featured Fin-tech platform with microservice architecture, money transfer with currency exchange, and payment processing. The application provides a seamless banking experience with fast page loads and responsive design.",
+      "shortDescription": "Modern Fin-tech solution with Spring Boot and microservice architecture",
+      "image": "/assets/projects/fintech.png?height=600&width=800",
+      "technologies": [
+        "Spring Boot",
+        "Docker",
+        "Postgres",
+        "MySQL",
+        "Java",
+        "Spring Security",
+        "Spring Cloud",
+        "JWT",
+        "Machine Learning"
+      ],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/Fintech-LSI",
       "features": [
-        "User authentication and authorization",
-        "Product catalog with search and filtering",
-        "Shopping cart and checkout process",
-        "Payment processing with Stripe",
-        "Order history and tracking",
-        "Admin dashboard for product management",
-        "Responsive design for all devices"
+        "Auth Service: User authentication and authorization",
+        "User Service: User data management, including profile updates and account settings",
+        "Transaction Service: Secure and reliable processing of financial transactions and logs",
+        "Wallet Service: Digital wallet supporting multiple currencies and transaction history",
+        "Gateway & Discovery Service: Dynamic discovery of microservices and centralized routing",
+        "Credit Risk Prediction: ML-based assessment of borrowers for risk analysis"
       ]
     },
     {
       "id": "project2",
-      "title": "Task Management App",
-      "description": "A collaborative task management application with real-time updates and team workspaces. The app helps teams organize their work, track progress, and meet deadlines efficiently.",
-      "shortDescription": "Trello-like task management with drag-and-drop functionality",
-      "image": "/placeholder.svg?height=600&width=800",
-      "technologies": ["React", "Firebase", "Material UI", "Redux", "React DnD", "Firebase Auth"],
-      "liveUrl": "https://example.com/taskapp",
-      "githubUrl": "https://github.com/username/taskapp",
+      "title": "Syndic Management",
+      "description": "Developed a web application using Laravel, Tailwind CSS, and Blade components to manage and monitor residents and residences, incorporating over five user roles for advanced access control and functionality.",
+      "shortDescription": "Web application for residence and resident management.",
+      "image": "/assets/projects/syndic.png?height=600&width=800",
+      "technologies": ["Laravel", "Tailwind CSS", "Ajax", "MySQL", "Spatie"],
+      "liveUrl": "",
+      "githubUrl": "",
       "features": [
-        "Drag-and-drop task management",
-        "Real-time collaboration",
-        "Team workspaces and permissions",
-        "Task comments and attachments",
-        "Deadline notifications",
-        "Activity logs and history",
-        "Mobile-friendly interface"
+        "Multi-role authentication",
+        "Secure API requests",
+        "Mini social media for posting reclamations and problems, and commenting on posts"
       ]
     },
     {
       "id": "project3",
-      "title": "Weather Dashboard",
-      "description": "A weather dashboard that displays current and forecasted weather data for multiple locations. The application uses the OpenWeather API to fetch accurate weather information and presents it in an intuitive interface.",
-      "shortDescription": "Weather visualization with OpenWeather API",
-      "image": "/placeholder.svg?height=600&width=800",
-      "technologies": ["React", "Chart.js", "OpenWeather API", "Tailwind CSS", "Geolocation API"],
-      "liveUrl": "https://example.com/weather",
-      "githubUrl": "https://github.com/username/weather",
+      "title": "Oracle Manager for User-Friendly Database Administration",
+      "description": "Making the management of databases and backups easier and simpler, with no need to use the terminal.",
+      "shortDescription": "Oracle database manager with React and Spring Boot.",
+      "image": "/assets/projects/oracle.png?height=600&width=800",
+      "technologies": ["Oracle DB", "React", "Spring Boot", "Docker"],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/khalilh2002/Oracle-Manager-react",
       "features": [
-        "Current weather conditions",
-        "5-day weather forecast",
-        "Location search and favorites",
-        "Interactive weather maps",
-        "Weather alerts and notifications",
-        "Historical weather data visualization",
-        "Automatic location detection"
+        "Auto-backup and recovery using RMAN",
+        "Show users, permissions, and roles",
+        "Revoke and assign roles",
+        "Secure the database"
+      ]
+    },
+    {
+      "id": "project4",
+      "title": "Internship Project: Automation of Internship Process",
+      "description": "Automated the intern integration process within the company, streamlining PDF document creation and enabling effective monitoring and tracking of intern progress.",
+      "shortDescription": "Automated intern integration and tracking system.",
+      "image": "/assets/projects/stage.png?height=600&width=800",
+      "technologies": ["Laravel", "HTML/CSS", "JavaScript", "MySQL"],
+      "liveUrl": "",
+      "githubUrl": "",
+      "features": [
+        "Automate internship tracking",
+        "Digitalize internship attestation printing"
+      ]
+    },
+    {
+      "id": "project5",
+      "title": "Unity RPG: The Quest for the Shortest Path",
+      "description": "Developed a game using the Unity engine with pathfinding algorithms like Dijkstra's and A* for sophisticated AI interactions. Leveraged graph theory to dynamically generate maps for unique playthroughs.",
+      "shortDescription": "Rogue-like RPG video game",
+      "image": "/assets/projects/unity.png?height=600&width=800",
+      "technologies": [
+        "Unity",
+        "C#",
+        "Graph Theory",
+        "Design Patterns"
+      ],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/khalilh2002/Unity-RPG-The-Quest-for-the-Shortest-Path",
+      "features": [
+        "Randomly generated map for each playthrough",
+        "Random enemy spawn",
+        "Autoplay using shortest path algorithm",
+        "Interactive gameplay"
+      ]
+    },
+    {
+      "id": "project6",
+      "title": "...Still ongoing",
+      "description": "Ed-Tech Android game to help kids learn with the help of a customized LLM, including reading and pronunciation under the supervision of a teacher.",
+      "shortDescription": "Ed-Tech: Bassam mobile game to help kids learn ",
+      "image": "/assets/projects/bassam.png?height=600&width=800",
+      "technologies": [
+        "Unity",
+        "PyTorch",
+        "Three.js",
+        "LLM",
+        "Deep Learning"
+      ],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/Agentic-AI-Educational-Game",
+      "features": [
+        "Evaluate kids' pronunciation",
+        "Use LLM fine-tuning with custom data (French PDF)",
+        "Show multiple-choice questions to help kids test their knowledge"
       ]
     }
   ]
