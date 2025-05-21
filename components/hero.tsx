@@ -8,7 +8,7 @@ import personalData from "@/data/personal.json"
 export default function Hero() {
   const [typedText, setTypedText] = useState("")
   const [currentIndex, setCurrentIndex] = useState(0)
-  const roles = personalData.roles || ["Frontend Developer", "UI/UX Designer", "Problem Solver"]
+  const roles = personalData.roles || ["Frontend Developer", "DevOps", "Problem Solver"]
 
   useEffect(() => {
     const role = roles[currentIndex % roles.length]

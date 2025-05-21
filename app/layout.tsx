@@ -8,8 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Professional Portfolio",
-  description: "A professional portfolio website showcasing my skills, experience, and projects.",
-    generator: 'v0.dev'
+  description: "A professional portfolio website showcasing my skills, experience, and projects."
 }
 
 export default function RootLayout({
@@ -20,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           {children}
           <Toaster />
         </ThemeProvider>
