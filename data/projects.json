@@ -1,33 +1,122 @@
 {
   "projects": [
+   {
+  "id": "project1",
+  "title": "Fin-Tech Platform",
+  "description": "A full-featured Fin-tech platform with microservice architecture, money transfer with currency exchange, and payment processing. The application provides a seamless banking experience with fast page loads, responsive design, and is deployed on AWS using Kubernetes with automated CI/CD pipelines.",
+  "shortDescription": "Modern Fin-tech solution with Spring Boot, microservices, and AWS deployment",
+  "image": "/assets/projects/fintech.png?height=600&width=800",
+  "technologies": [
+    "Spring Boot",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Postgres",
+    "MySQL",
+    "Java",
+    "Spring Security",
+    "Spring Cloud",
+    "JWT",
+    "Machine Learning"
+  ],
+  "liveUrl": "",
+  "githubUrl": "https://github.com/Fintech-LSI",
+  "features": [
+    "Auth Service: User authentication and authorization",
+    "User Service: User data management, including profile updates and account settings",
+    "Transaction Service: Secure and reliable processing of financial transactions and logs",
+    "Wallet Service: Digital wallet supporting multiple currencies and transaction history",
+    "Gateway & Discovery Service: Dynamic discovery of microservices and centralized routing",
+    "Credit Risk Prediction: ML-based assessment of borrowers for risk analysis",
+    "Deployment on AWS with automated CI/CD pipeline",
+    "Kubernetes for container orchestration and scalable deployment"
+  ]
+}
+,
     {
       "id": "project1",
-      "title": "Fin-Tech Platform",
-      "description": "A full-featured Fin-tech platform with microservice architecture, money transfer with currency exchange, and payment processing. The application provides a seamless banking experience with fast page loads and responsive design.",
-      "shortDescription": "Modern Fin-tech solution with Spring Boot and microservice architecture",
-      "image": "/assets/projects/fintech.png?height=600&width=800",
+      "title": "Real-Time Medical Emergency Response System",
+      "description": "A web platform for real-time tracking and dispatch of medical emergencies. Patients can request ambulances, and the nearest available providers are notified and tracked live using SignalR and Azure Maps.",
+      "shortDescription": "Real-time medical emergency dispatch system with live provider tracking",
+      "image": "/assets/projects/kelos.png?height=600&width=800",
       "technologies": [
-        "Spring Boot",
+        ".NET Core",
+        "SignalR",
+        "Azure Maps",
+        "Azure Cloud",
+        "Azure DevOps",
         "Docker",
-        "Postgres",
-        "MySQL",
-        "Java",
-        "Spring Security",
-        "Spring Cloud",
-        "JWT",
-        "Machine Learning"
+        "Next.js",
+        "TypeScript",
+        "SQL Server"
       ],
       "liveUrl": "",
-      "githubUrl": "https://github.com/Fintech-LSI",
       "features": [
-        "Auth Service: User authentication and authorization",
-        "User Service: User data management, including profile updates and account settings",
-        "Transaction Service: Secure and reliable processing of financial transactions and logs",
-        "Wallet Service: Digital wallet supporting multiple currencies and transaction history",
-        "Gateway & Discovery Service: Dynamic discovery of microservices and centralized routing",
-        "Credit Risk Prediction: ML-based assessment of borrowers for risk analysis"
+        "Patients can request ambulances in real-time",
+        "Automatic matching of requests to the nearest available providers",
+        "Real-time location tracking of providers using SignalR",
+        "Notifications sent to providers and patients for updates",
+        "Interactive frontend with Next.js and TypeScript",
+        "Backend built with .NET Core and SQL Server",
+        "Integration with Azure Maps for routing and navigation",
+        "Deployment and CI/CD managed via Azure DevOps",
+        "Dockerized services for scalable and reliable deployment"
       ]
     },
+    {
+      "id": "project6",
+      "title": "Bassam: Interactive Ed-Tech Game (Mobile & Web)",
+      "description": "Ed-Tech Android game to help kids learn with the help of a customized LLM, including reading and pronunciation under the supervision of a teacher.",
+      "shortDescription": "Ed-Tech: Bassam mobile game to help kids learn ",
+      "image": "/assets/projects/bassam.png?height=600&width=800",
+      "technologies": [
+        "React",
+        "Typescript",
+        "Compastor Js",
+        "Unity",
+        "PyTorch",
+        "RAG",
+        "groq api",
+        "LLM",
+        "Deep Learning"
+      ],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/Agentic-AI-Educational-Game",
+      "features": [
+        "Evaluate kids' pronunciation",
+        "Use LLM fine-tuning with custom data (French PDF)",
+        "Show multiple-choice questions to help kids test their knowledge"
+      ]
+    },
+    {
+  "id": "project03",
+  "title": "Smart E-Commerce Product Analyzer",
+  "description": "A system to scrape products from multiple e-commerce platforms, analyze and score them using unsupervised machine learning, and recommend the best products to sell. The system is deployed on Kubernetes (Minikube) with ingress and CI/CD pipelines using GitHub Actions.",
+  "shortDescription": "E-commerce product scraping, analysis, and scoring with ML and automated deployment",
+  "image": "/assets/projects/mldm.png?height=600&width=800",
+  "technologies": [
+    "Python",
+    "Selenium",
+    "Machine Learning",
+    "Unsupervised Learning",
+    "Docker",
+    "Kubernetes",
+    "Minikube",
+    "GitHub Actions",
+    "CI/CD"
+  ],
+  "liveUrl": "",
+  "githubUrl": "https://github.com/Smart-eCommerce-Intelligence",
+  "features": [
+    "Scrape products from multiple e-commerce platforms automatically using Selenium",
+    "Analyze product data and calculate a score based on demand, price, and competition",
+    "Use unsupervised machine learning to classify and recommend best-selling products",
+    "Deploy services on Kubernetes using Minikube with ingress management",
+    "Automated CI/CD pipeline via GitHub Actions for continuous deployment and updates",
+    "Dockerized microservices for scalability and maintainability"
+  ]
+},
+
     {
       "id": "project2",
       "title": "Syndic Management",
@@ -92,27 +181,6 @@
         "Random enemy spawn",
         "Autoplay using shortest path algorithm",
         "Interactive gameplay"
-      ]
-    },
-    {
-      "id": "project6",
-      "title": "...Still ongoing",
-      "description": "Ed-Tech Android game to help kids learn with the help of a customized LLM, including reading and pronunciation under the supervision of a teacher.",
-      "shortDescription": "Ed-Tech: Bassam mobile game to help kids learn ",
-      "image": "/assets/projects/bassam.png?height=600&width=800",
-      "technologies": [
-        "Unity",
-        "PyTorch",
-        "Three.js",
-        "LLM",
-        "Deep Learning"
-      ],
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Agentic-AI-Educational-Game",
-      "features": [
-        "Evaluate kids' pronunciation",
-        "Use LLM fine-tuning with custom data (French PDF)",
-        "Show multiple-choice questions to help kids test their knowledge"
       ]
     }
   ]

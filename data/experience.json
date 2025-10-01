@@ -1,12 +1,42 @@
 {
-  "jobs": [
+"jobs": [
+    {
+      "id": "job0",
+      "title": "Full-Stack & Cloud Developer Intern",
+      "company": "KLEOS SOLUTIONS",
+      "location": "Casablanca",
+      "startDate": "June 2025",
+      "endDate": "Sep 2025",
+      "description": "Real-time medical emergency tracking and dispatch system with an interactive and intuitive interface, integrating SignalR, Azure Maps, and deployed on Azure Cloud.",
+      "responsibilities": [
+        "Developed the backend in .NET Core using SignalR for real-time tracking and notifications",
+        "Built an interactive and intuitive frontend using Next.js and TypeScript",
+        "Integrated Azure Maps API on both backend and frontend",
+        "Deployed the application on Azure Cloud via Azure DevOps"
+      ],
+      "technologies": ["Azure Cloud", "Azure DevOps", "Docker", "Next.js", ".NET Core", "SQL Server", "SignalR", "Azure Maps"]
+    },
+    {
+      "id": "job2",
+      "title": "Graphic designer (client)",
+      "company": "Freelance",
+      "location": "Remote",
+      "startDate": "Aug 2024",
+      "endDate": "Oct 2024",
+      "description": "Developed a web application based on a predefined design ensuring seamless implementation and functionality.",
+      "responsibilities": [
+        "Developing a web application based on a predefined design",
+        "Ensuring seamless implementation and functionality"
+      ],
+      "technologies": ["Laravel", "Tailwind CSS", "JavaScript"]
+    },
     {
       "id": "job1",
-      "title": "3D Smart Factory",
-      "company": "Internship",
-      "location": "",
-      "startDate": "Jul 2025",
-      "endDate": "Sep 2023",
+      "title": "Full-Stack Developer Intern",
+      "company": "3D Smart Factory",
+      "location": "Mohamedia",
+      "startDate": "Jul 2024",
+      "endDate": "Sep 2024",
       "description": "Automate the integration process of interns within the company, streamline the creation of PDF documents for interns, and monitor and track the progress of interns effectively.",
       "responsibilities": [
         "Automate the integration process of interns within the company",
@@ -14,20 +44,6 @@
         "Monitor and track the progress of interns effectively"
       ],
       "technologies": ["Laravel", "HTML/CSS", "JavaScript"]
-    },
-    {
-      "id": "job2",
-      "title": "Graphic designer (client)",
-      "company": "Freelance",
-      "location": "",
-      "startDate": "Aug 2025",
-      "endDate": "Oct 2023",
-      "description": "Developed a web application based on a predefined design ensuring seamless implementation and functionality.",
-      "responsibilities": [
-        "Developing a web application based on a predefined design",
-        "Ensuring seamless implementation and functionality"
-      ],
-      "technologies": ["Laravel", "Tailwind CSS", "JavaScript"]
     }
   ]
 }

@@ -3,7 +3,8 @@
     {
       "name": "Frontend",
       "skills": [
-        { "name": "React", "level": 60, "icon": "React" },
+        { "name": "Next js", "level": 80, "icon": "Next" },
+        { "name": "React", "level": 80, "icon": "React" },
         { "name": "Angular", "level": 60, "icon": "LayoutTemplate" },
         { "name": "HTML", "level": 60, "icon": "FileCode" },
         { "name": "CSS", "level": 55, "icon": "FileCode" },
@@ -20,10 +21,10 @@
       "name": "Backend",
       "skills": [
         { "name": "Spring", "level": 75, "icon": "Leaf" },
+        { "name": ".NET Core", "level": 80, "icon": "CodeSquare" },
         { "name": "Laravel", "level": 75, "icon": "FileCode" },
         { "name": "Node.js", "level": 60, "icon": "Server" },
         { "name": "Express", "level": 60, "icon": "Workflow" },
-        { "name": "ASP.NET", "level": 55, "icon": "CodeSquare" },
         { "name": "PHP", "level": 70, "icon": "FileCode" },
         { "name": "Java", "level": 75, "icon": "Coffee" },
         { "name": "JavaScript", "level": 65, "icon": "FileJson" },
@@ -37,10 +38,13 @@
     {
       "name": "Tools & DevOps",
       "skills": [
+        { "name": "Azure Cloud", "level": 70, "icon": "Cluster" },
+        { "name": "Aws Cloud", "level": 70, "icon": "Cluster" },
+        { "name": "Azure DevOps", "level": 70, "icon": "Cluster" },
         { "name": "Docker", "level": 80, "icon": "Container" },
         { "name": "Jenkins", "level": 70, "icon": "Workflow" },
         { "name": "Ubuntu", "level": 70, "icon": "Terminal" },
-        { "name": "Kubernetes", "level": 65, "icon": "Cluster" },
+        { "name": "Kubernetes", "level": 75, "icon": "Cluster" },
         { "name": "Linux", "level": 80, "icon": "Terminal" },
         { "name": "Bash", "level": 70, "icon": "Terminal" },
         { "name": "Python", "level": 80, "icon": "Python" },
